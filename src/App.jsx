@@ -1,19 +1,20 @@
-import logo from './logo.svg';
+import React from "react"
 import './App.css';
 import Header from "./components/Header"
+import Main from "./components/Main"
+import Form from "./components/Form"
+
 
 function App() {
   return (
      
     <div className="App">
       <Header/>
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        
-        
-      </header>
+      <Main/>
+      <Form/>
     </div>
   );
 }
+export default App
 
-export default App;
+
