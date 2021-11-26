@@ -3,8 +3,8 @@ import './App.css';
 import Navbar from "./components/Navbar"
 import Main from "./components/Main"
 import Form from "./components/Form"
-
-
+import Weather from "./components/Weather"
+import Covid from "./components/Covid"
 function App() {
   return (
      
@@ -12,6 +12,8 @@ function App() {
       <Navbar/>
       <Main/>
       <Form/>
+      <Weather/>
+      <Covid/>
     </div>
   );
 }
