@@ -7,12 +7,10 @@ function Form() {
         <form action="" method="get" className="form-example">
         <label>
         Location:
-    <input type="text" name="name" />
+        <input type="text" name="name" />
   </label>
-  <input type="submit" value="Submit" />
-             
         </form>
-
+        <button type="submit" className="submit_button"value="Submit">Submit </button>
         </div>
 
 
