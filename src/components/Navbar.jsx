@@ -6,7 +6,7 @@ import React from "react"
 function Navbar() {
 
 return (
-    <nav className="navbar">
+    <nav className="navbar-container">
         <h1>Travel-Buddy</h1>
 
     </nav>

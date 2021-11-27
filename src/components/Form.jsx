@@ -3,7 +3,7 @@ import React from "react"
 
 function Form() {
     return(
-        <div>
+        <div className="form-container">
         <form action="" method="get" className="form-example">
         <label>
         Location:
@@ -17,5 +17,5 @@ function Form() {
     )
 
 }
-
+<script type="text/javascript" src="../src/mainAPI.js"></script>
 export default Form

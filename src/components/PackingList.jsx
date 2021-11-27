@@ -1,9 +1,9 @@
 import React from "react" 
 
 
-function Main() {
+function PackingList() {
     return (
-        <div>
+        <div className="packingList-container">
             <h1>What to pack???</h1>
             <li>shoes</li>
             <li>sun block</li>
@@ -15,4 +15,4 @@ function Main() {
 
 }
 
-export default Main
+export default PackingList

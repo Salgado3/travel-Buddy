@@ -16,6 +16,11 @@ code {
 
 /* //Navbar */
 
-.navbar {
+.navbar-container {
   box-shadow: 0 5px 2.5px #888888;
+}
+
+
+.covid-container {
+  background-color: aqua;
 }
