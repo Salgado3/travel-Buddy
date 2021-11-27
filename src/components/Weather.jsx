@@ -7,7 +7,12 @@ function Weather() {
             <div className="weather-container">
                 <p>Pull info from weather API to display destination weather</p>
                 <p><a href="https://www.weatherapi.com/">WeatherAPI</a></p>
-                {/* <a href="https://openweathermap.org/api">WeatherAPI Option 2</a> */}
+                <ul>
+            <li>Current Weather: </li>
+            <li>Forecast:</li>
+            <li>Time Zone</li>
+            <li>History</li>
+        </ul>
 
             </div>
 
