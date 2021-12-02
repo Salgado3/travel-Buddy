@@ -3,7 +3,7 @@
 
 
 const weatherKey = process.env.REACT_APP_weatherKey;
-document.querySelector("button").addEventListener("click", tellWeather)
+document.querySelector(".submit_button").addEventListener("click", tellWeather)
 
 
 function tellWeather() {
